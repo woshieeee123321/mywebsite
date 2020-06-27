@@ -3,7 +3,7 @@
 body {
 	padding: 0;
 	margin: 0;
-	background: #FFF;
+	background: #f5f5dc;
 	
 }
 body a {
@@ -103,7 +103,7 @@ li.nav-item {
     margin-right: 30px;
 }
 .navbar-brand label {
-    color: #ff4f81;
+    color: #ffa700;
     display: block;
     font-size: 1em;
     text-align: center;
@@ -137,7 +137,7 @@ li.nav-item {
     padding: .25rem .75rem;
     font-size: 1.25rem;
     line-height: 1;
-    background-color: #ff4f81;
+    background-color: #ffa700;
     border: 1px solid transparent;
     border-radius: .25rem;
 }
@@ -155,14 +155,14 @@ li.nav-item {
     color: #212529;
     text-align: left;
     list-style: none;
-    background-color:#ff4f81;
+    background-color:#ffa700;
     background-clip: padding-box;
     border: 1px solid rgba(0,0,0,.15);
     border-radius: .25rem;
 }
 .btn-outline-success {
     color: #fff;
-    background-color: #ff4f81;
+    background-color: #ffa700;
     background-image: none;
     border-color: #0099e5;
 	border:none;
@@ -250,7 +250,7 @@ color:#fff !important;
 }
 
 .botton a {
-	background: #ff4f81;
+	background: #ffa700;
 	color: #fff;
 	display: inline-block;
 	letter-spacing: 3px;
@@ -420,7 +420,7 @@ h1 {
 .white-right h4 {
     font-size: 26px;
     margin: 30px 0 30px;
-    color: #ff4f81;
+    color: #ffa700;
 	font-weight:600;
 	letter-spacing:2px;
 }
@@ -448,7 +448,7 @@ h1 {
     list-style: none;
 }
 .w3l_abtl {
-    background-color:#ff4f81;
+    background-color:#ffa700;
     padding: 6em 4em ;
 }
 .w3-agileits-team-title {
@@ -483,7 +483,7 @@ ul.resp-tabs-list {
     text-shadow: none;
     color: #fff;
     border-bottom: 3px solid #000;
-    background:#ff4f81;
+    background:#ffa700;
     padding: 15px 47px;
 }
 p.dng {
@@ -529,7 +529,7 @@ h4.w3_chg {
 }
 
 .wthree-services-info h5{
-    color: #ff4f81;
+    color: #ffa700
     font-size: 1em;
     text-transform: uppercase;
     font-weight: 600;
@@ -547,7 +547,7 @@ h4.w3_chg {
     color: #212121;
 }
 .wthree-services-grid:hover .wthree-services-info h5{
-	color:#ff4f81;
+	color:#ffa700;
 }
 .wthree-services-icon i {
     font-size: 100px;
@@ -567,7 +567,7 @@ section#services {
 .t-info{
 	text-align:center;
     padding: 10px;
-	background:#ff4f81;
+	background:#ffa700;
 }
 h3.title {
     text-align: center;
@@ -751,7 +751,7 @@ section.gallery h3 {
 
 .wthree_testimonials_grid1 h5 {
     font-size: 1em;
-    color: #ff4f81;
+    color: #ffa700;
     margin: 1.5em 0 0em;
 	font-weight:600;
 	letter-spacing:2px;
@@ -810,11 +810,11 @@ section.gallery h3 {
 }
 .nbs-flexisel-nav-left {
 	left: 3.5%;
-    background:url(../images/right.png) no-repeat 10px 11px #ff4f81;
+    background:url(../images/right.png) no-repeat 10px 11px #ffa700;
 }
 .nbs-flexisel-nav-right {
 	right: 3.5%;
-	background:url(../images/left.png) no-repeat 14px 12px #ff4f81;
+	background:url(../images/left.png) no-repeat 14px 12px #ffa700;
 }
 /*--//flexisel--*/
 .testimonials {
@@ -992,7 +992,7 @@ ul.faq li {
     position: relative;
     color: #fff;
     text-decoration: none;
-    background: #ff4f81;
+    background: #ffa700;
     text-align: center;
     font-size: 1.1em;
     text-transform: uppercase;
