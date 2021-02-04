@@ -1,28 +1,25 @@
 <!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
-		<title>tian's blog</title>
+		<title>Single - Future Imperfect by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<body class="is-preload">
+	<body class="single is-preload">
 
 		<!-- Wrapper -->
 			<div id="wrapper">
 
 				<!-- Header -->
 					<header id="header">
-						<h1><a href="index.html">tian's 首页</a></h1>
-						<nav class="links">
-							<ul>
-								<li><a href="category/redirect.html">分类</a></li>
-								<li><a href="https://space.bilibili.com/107525146">B站空间</a></li>
-								<li><a href="https://github.com/woshieeee123321">github库</a></li>
-								<li><a href="#">还没想好</a></li>
-								<li><a href="#">还没想好</a></li>
-							</ul>
-						</nav>
+						<h1><a href="index.html">Tian's Blog</a></h1>
+
 						<nav class="main">
 							<ul>
 								<li class="search">
@@ -37,7 +34,8 @@
 							</ul>
 						</nav>
 					</header>
-	
+
+				<!-- Menu -->
 					<section id="menu">
 
 						<!-- Search -->
@@ -51,9 +49,9 @@
 							<section>
 								<ul class="links">
 									<li>
-										<a href="category/redirect.html">
-											<h3>类别</h3>
-											<p>选择你喜欢的内容进行浏览</p>
+										<a href="#">
+											<h3>Lorem ipsum</h3>
+											<p>Feugiat tempus veroeros dolor</p>
 										</a>
 									</li>
 									<li>
@@ -85,6 +83,7 @@
 							</section>
 
 					</section>
+
 				<!-- Main -->
 					<div id="main">
 
@@ -92,7 +91,7 @@
 							<article class="post">
 								<header>
 									<div class="title">
-										<h2><a href="single.html">通过内网穿透架设Minecraft服务器始末</a></h2>
+										<h2><a href="#">通过内网穿透架设Minecraft服务器始末</a></h2>
 										<p>经验分享</p>
 									</div>
 									<div class="meta">
@@ -100,77 +99,34 @@
 										<a href="#" class="author"><span class="name">田某</span><img src="images/avatar.jpg" alt="" /></a>
 									</div>
 								</header>
-								<a href="posts/single.html" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-								<p>阿巴阿巴</p>
-								<footer>
-									<ul class="actions">
-										<li><a href="posts/single.html" class="button large">继续阅读</a></li>
-									</ul>
-								</footer>
+								<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
+								<p>事情的起因是阔耐的弟弟想过一把当腐竹的瘾，正好我前几天正研究内网穿透，正好借此机会实战。</p>
+								<p>要搭一个游戏服务器，必须要有该游戏的服务端，对于第三方服务器产业如此发达的Minecraft来讲，傻瓜式开服端已经遍地都是了；为了方便，我使用spigot1.16.5进行的游戏环境搭建。</p>
+								<span class="image featured"><img src="images/kaifu1.png" alt="" /></span>
+								<p>创建一个bat文件在运行时给服务端添加分配内存的启动参数</p>
+								<span class="image featured"><img src="images/kaifu2.png" alt="" /></span>
+								<p>然后运行bat，spigot会下载服务器依赖文件，等一切准备妥当之后服务端会提示使用/help查看全部指令。</p>
+								<p>此时就代表服务器开好了，但如果非正版玩家，会提示无效的会话。。。。</p>
+								<p>这就涉及到服务器的配置，使用任意一款文本编辑器，例如VScode，打开server.properties文件，以下是文件汉化表</p>
+								<span class="image featured"><img src="images/kaifu3.png" alt="" /></span>
+								<span class="image featured"><img src="images/kaifu4.png" alt="" /></span>
+								<span class="image featured"><img src="images/kaifu5.png" alt="" /></span>
+								<p>配置完毕后重启spigot，在本地的服务端配置就告一段落</p>
+								<p>接下来就是把存在于在本地的文件通过内网穿透</p>
 							</article>
-						<!-- Pagination -->
-							<ul class="actions pagination">
-								<li><a href="" class="disabled button large previous">Previous Page</a></li>
-								<li><a href="#" class="button large next">Next Page</a></li>
-							</ul>
+
 					</div>
-				<!-- Sidebar -->
-					<section id="sidebar">
 
-						<!-- Intro -->
-							<section id="intro">
-								<a href="#" class="logo"><img src="images/logo.png" alt="" /></a>
-								<header>
-									<h2>田的小窝</h2>
-									<p>Justice delayed is justice denied <a href="http://html5up.net">qwq</a></p>
-									<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="110" src="https://music.163.com/outchain/player?type=0&id=6584199155&auto=1&height=90"></iframe>
-								</header>
-							</section>
-
-						<!-- 左侧一栏迷你投稿，若添加，从article开始到/article -->
-							<section>
-								<div class="mini-posts">
-
-									<!-- Mini Post -->
-										<article class="mini-post">
-											<header>
-												<h3><a href="posts/single.html">示例1</a></h3>
-												<time class="published" datetime="2015-10-20">October 20, 2015</time>
-												<a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
-											</header>
-											<a href="posts/single.html" class="image"><img src="images/pic04.jpg" alt="" /></a>
-										</article>
-
-								</div>
-							</section>
-
-						<!-- 左侧二栏投稿列表 ，若想添加内容从li开始到/li不要复制ul class=posts-->
-							<section>
-								<ul class="posts">
-									<li>
-										<article>
-											<header>
-												<h3><a href="single.html">Lorem ipsum fermentum ut nisl vitae</a></h3>
-												<time class="published" datetime="2015-10-20">October 20, 2015</time>
-											</header>
-											<a href="single.html" class="image"><img src="images/pic08.jpg" alt="" /></a>
-										</article>
-									</li>
-								</ul>
-							</section>
-						<!-- Footer -->
-							<section id="footer">
-								<ul class="icons">
+				<!-- Footer -->
+					<section id="footer">
+						<ul class="icons">
 									<li><a href="#" class="icon brands fa-steam"><span class="label">Twitter</span></a></li>
 									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="#" class="icon brands fa-qq"><span class="label">Facebook</span></a></li>
 									<li><a href="#" class="icon brands fa-skype"><span class="label">Instagram</span></a></li>
 									<li><a href="#" class="icon solid fa-qrcode"><span class="label">RSS</span></a></li>
 									<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-								</ul>
-								
-							</section>
-
+						</ul>
 					</section>
 
 			</div>
